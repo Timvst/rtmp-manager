@@ -1,6 +1,4 @@
 node_modules/
-bower_components/
-*.log
-
-build/
-dist/
+public/components
+.nyc_output
+.sass-cache
