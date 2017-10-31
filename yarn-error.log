@@ -1,0 +1,109 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tvste\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\tvste\bin;C:\Users\tvste\AppData\Local\Programs\Git\mingw64\bin;C:\Users\tvste\AppData\Local\Programs\Git\usr\local\bin;C:\Users\tvste\AppData\Local\Programs\Git\usr\bin;C:\Users\tvste\AppData\Local\Programs\Git\usr\bin;C:\Users\tvste\AppData\Local\Programs\Git\mingw64\bin;C:\Users\tvste\AppData\Local\Programs\Git\usr\bin;C:\Users\tvste\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs;C:\Users\tvste\AppData\Local\Microsoft\WindowsApps;C:\Users\tvste\AppData\Local\atom\bin;C:\Users\tvste\AppData\Local\Programs\Git\cmd;C:\Users\tvste\AppData\Roaming\npm;C:\Users\tvste\AppData\Local\GitHubDesktop\bin;C:\Users\tvste\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\tvste\AppData\Local\Programs\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  6.11.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "hackathon-starter",
+    "version": "4.3.0",
+    "description": "A boilerplate for Node.js web applications",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sahat/hackathon-starter.git"
+    },
+    "author": "Sahat Yalkabov",
+    "license": "MIT",
+    "scripts": {
+      "start": "node app.js",
+      "test": "mocha --reporter spec",
+      "postinstall": "npm rebuild node-sass",
+      "eslint": "eslint **/*.js"
+    },
+    "dependencies": {
+      "bcrypt-nodejs": "^0.0.3",
+      "bluebird": "^3.5.1",
+      "body-parser": "^1.18.2",
+      "compression": "^1.7.1",
+      "connect-mongo": "^2.0.0",
+      "dotenv": "^4.0.0",
+      "errorhandler": "^1.5.0",
+      "express": "^4.16.2",
+      "express-flash": "^0.0.2",
+      "express-session": "^1.15.6",
+      "express-status-monitor": "^1.0.1",
+      "express-validator": "^3.2.1",
+      "fbgraph": "^1.4.1",
+      "lusca": "^1.5.2",
+      "mongoose": "^4.12.4",
+      "morgan": "^1.9.0",
+      "multer": "^1.3.0",
+      "node-sass-middleware": "^0.11.0",
+      "nodemailer": "^4.2.0",
+      "passport": "0.4.0",
+      "passport-facebook": "^2.1.1",
+      "passport-google-oauth": "^1.0.0",
+      "passport-local": "^1.0.0",
+      "pug": "^2.0.0-rc.4",
+      "request": "^2.83.0",
+      "validator": "^8.2.0"
+    },
+    "devDependencies": {
+      "chai": "^4.1.2",
+      "eslint": "^4.9.0",
+      "eslint-config-airbnb-base": "^11.3.2",
+      "eslint-plugin-chai-friendly": "^0.4.0",
+      "eslint-plugin-import": "^2.8.0",
+      "mocha": "^3.5.3",
+      "sinon": "^3.3.0",
+      "sinon-mongoose": "^2.0.2",
+      "supertest": "^3.0.0"
+    },
+    "eslintConfig": {
+      "extends": "airbnb-base",
+      "rules": {
+        "comma-dangle": 0,
+        "consistent-return": 0,
+        "no-param-reassign": 0,
+        "no-underscore-dangle": 0,
+        "no-shadow": 0,
+        "no-console": 0,
+        "no-plusplus": 0,
+        "no-unused-expressions": 0,
+        "chai-friendly/no-unused-expressions": 2
+      },
+      "env": {
+        "jasmine": true,
+        "mocha": true,
+        "node": true
+      },
+      "plugins": [
+        "chai-friendly"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\tvste\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87242:59)
+      at Object.<anonymous> (C:\Users\tvste\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:81759:38)
+      at next (native)
+      at step (C:\Users\tvste\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92:30)
+      at C:\Users\tvste\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:103:13
+      at process._tickCallback (internal/process/next_tick.js:109:7)
