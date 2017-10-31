@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+  .page-header
+    h3 Livestream toevoegen
+  form.form-horizontal(id='signup-form', method='POST')
+    input(type='hidden', name='_csrf', value=_csrf)
+    .form-group
+      label.col-sm-3.control-label(for='name') Titel
+      .col-sm-7
+        input.form-control(type='text', name='name', id='name', placeholder='Titel', autofocus, required)
+    .form-group
+      label.col-sm-3.control-label(for='password') Ankeiler
+      .col-sm-7
+        input.form-control(type='text', name='ankeiler', id='ankeiler', placeholder='Ankeiler')
+      .col-sm-offset-3.col-sm-7
+        button.btn.btn-success(type='submit')
+          i.fa.fa-user-plus
+          | Voeg toe
